@@ -1,0 +1,29 @@
+.App{
+    width: calc(100% - 5rem);
+    display: grid;
+    padding-inline: 5rem;
+    .bg-circle1{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        height: 200px;
+        background: $blue-light;
+        filter: blur(140px);
+    }
+    .bg-circle2{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 200px;
+        height: 200px;
+        background: $violet;
+        filter: blur(150px);
+    }
+    .home-container{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

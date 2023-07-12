@@ -1,0 +1,104 @@
+.home{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: all 1s ease;
+    margin-bottom: 7rem;
+    .image{
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            margin: 15px;
+    }
+
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px;
+        align-items: center;
+        box-shadow: 1px 1px 35px 1px rgba(55, 108, 255, 0.76),
+                    inset 1px 1px 10px 1px rgba(55, 108, 255, 0.76);
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .left-icon{
+        .icon{
+            transition: all .5s linear;
+            &:hover{
+                cursor: pointer;
+                scale: 1.4;
+            }
+            &:nth-child(1){
+                translate: 165.5px -65.2px;
+                animation: backInDown ;
+                animation-duration: 1.1s;
+            }
+            &:nth-child(2){
+                translate: 53px -71px;
+                animation: backInLeft ;
+                animation-duration: 1.4s;
+            }
+            &:nth-child(3){
+                animation: backInLeft ;
+                animation-duration: 2.1s;
+            }
+            &:nth-child(4){
+                translate: 42px 61px;
+                animation: backInLeft ;
+                animation-duration: 3s;
+            }
+            &:nth-child(5){
+                translate: 159.5px 60.2px;
+                animation: backInUp ;
+                animation-duration: 4.5s;
+            }
+        }
+        
+    }
+    .right-icon{
+        .icon{
+            transition: all .5s linear;
+            &:hover{
+                cursor: pointer;
+                scale: 1.4;
+            }
+            &:nth-child(1){
+                translate: -165.5px -65.2px;
+                animation: backInDown;
+                animation-duration: 8.5s;
+            }
+            &:nth-child(2){
+                translate: -53px -71px;
+                animation: backInRight;
+                animation-duration: 8s;
+            }
+            &:nth-child(3){
+                font-size: 13px;
+                animation: backInRight;
+                animation-duration: 7s;
+            }
+            &:nth-child(4){
+                translate: -42px 61px;
+                animation: backInRight;
+                animation-duration: 6s;
+                font-size: 13px;
+            }
+            &:nth-child(5){
+                translate: -159.5px 60.2px;
+                animation: backInUp;
+                animation-duration: 5.5s;
+            }
+        }
+        
+    }
+
+}

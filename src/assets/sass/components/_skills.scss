@@ -1,0 +1,24 @@
+.skills{
+    min-height: 90vh;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+    padding-right: 3rem;
+    .icon{
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 1px 1px 15px 1px rgba(55, 108, 255, 0.76),
+                    inset 1px 1px 10px 1px rgba(55, 108, 255, 0.76);
+        img{
+            width: 50px;
+            height: 50px;
+            
+            margin-block: 10px;
+        }
+    }
+}

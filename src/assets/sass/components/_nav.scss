@@ -1,0 +1,46 @@
+nav{
+    width: 60%;
+    height: 50px;
+    margin: 5px calc((80% - 60%)/2);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+    z-index: 11;
+    @media screen and (max-width:500px) {
+        width: 100%;
+        margin: 0;
+        left: 0px;
+        border-radius: 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        height: 100%;
+        li{
+            i{
+                font-size: 1.7rem;
+                color: black;
+                transition: all .3s ease-in;cursor: pointer;
+                transition: all .4s ease-in;
+                padding: 10px;
+                &:hover{
+                    border: solid 2px rgba(55, 108, 255, 0.76);
+                    border-radius: 50%;
+                    scale: 1.1;
+                    color: rgba(55, 108, 255, 0.76);
+                }
+            }
+            .active{
+                color: rgba(55, 108, 255, 0.76);
+                border: solid 2px rgba(55, 108, 255, 0.76);
+                border-radius: 50%;
+            }
+        }
+    }
+}
