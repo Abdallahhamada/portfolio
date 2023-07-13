@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cea55583.css",
+    "main.js": "/portfolio/static/js/main.a2f040f2.js",
+    "static/media/main.jpg": "/portfolio/static/media/main.a26ee96dcc1032336938.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.bee3a07845ba4df18f9c.png",
+    "static/media/html.png": "/portfolio/static/media/html.72a847430332a4c5100b.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.c2b2a06bb7a1610ba7f5.png",
+    "static/media/laravel.png": "/portfolio/static/media/laravel.1e02c115b104dbe3466b.png",
+    "static/media/redis.png": "/portfolio/static/media/redis.176230492f634d36a6e4.png",
+    "static/media/css.png": "/portfolio/static/media/css.1ed10e016dfa2996405a.png",
+    "static/media/php.png": "/portfolio/static/media/php.8570e596dafa9a701e8b.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.511526cb216ccae85285.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.1060d2b4f3af4599569f.png",
+    "static/media/mail.svg": "/portfolio/static/media/mail.d4d00dad1e4658b073d0fb7e5bc5a71b.svg",
+    "index.html": "/portfolio/index.html",
+    "main.cea55583.css.map": "/portfolio/static/css/main.cea55583.css.map",
+    "main.a2f040f2.js.map": "/portfolio/static/js/main.a2f040f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea55583.css",
+    "static/js/main.a2f040f2.js"
+  ]
+}
